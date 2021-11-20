@@ -1,19 +1,4 @@
-%Angle reduce reduction degrees radians
-% Richard Rieber
-% October 1, 2009
-% rrieber@gmail.com
-%
-% function y = zeroTo360(x,unit)
-%
-% Purpose: This function reduces an angle to the range of 0 - 360 degrees
-%          or 0 - 2*pi radians.
-%
-% Inputs:   x    - Angle to be reduced, may be an array of angles
-%           unit - Boolean, 1 for radians, 0 for degrees, defaults to
-%                  degrees [OPTIONAL]
-%
-% Output:   y    - Reduced angle
-%
+
 
 function y = zeroTo360(x,unit)
 
